@@ -1,0 +1,109 @@
+        .nav-col {
+            background-color: #225370c5;
+        }
+        
+        .navbar-brand {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .custom-nav .custom-navitem a {
+            color: white !important;
+        }
+        
+        .custom-navitem:hover {
+            background-color: #dc3545;
+            border: solid #dc3545 1px;
+            border-radius: 10px;
+        }
+        
+        .video-mar {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .vid-parent {
+            position: relative;
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+        }
+        
+        .vid-overlay {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            background-color: #225370c5;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        
+        .vid-content {
+            position: absolute;
+            z-index: 2;
+            top: 30%;
+            left: 30%;
+            text-align: center;
+            color: white;
+        }
+        
+        .bottom-banner {
+            color: white;
+            padding: 5px;
+        }
+        
+        .stripe {
+            background-image: linear-gradient(240deg, #ed213a, #93291e);
+            padding: 3rem;
+            height: 13rem;
+            margin-top: 4rem;
+            transform: rotate(10deg);
+            z-index: -5;
+            border: none;
+            border-radius: 10px;
+        }
+        
+        a.social-hover {
+            text-decoration: none;
+        }
+        
+        a.social-hover:hover {
+            padding: 5px 100px;
+            background-color: rgb(95, 93, 93);
+        }
+        
+        @media screen and (max-width: 800px) {
+            .my-content,
+            .txt-banner {
+                display: none;
+            }
+            .vid-content {
+                top: 15%;
+                left: 60%;
+            }
+            .custom-nav,
+            .custom-navitem a {
+                padding: 10px;
+                background-color: #225470;
+            }
+            .custom-navitem:hover {
+                background-color: none;
+                border: none;
+                border-radius: none;
+            }
+            .cont-c {
+                margin-top: 20%;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            div .stripe {
+                display: none;
+            }
+        }
